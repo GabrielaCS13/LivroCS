@@ -3,7 +3,7 @@ using Livro.Models;
 using Livro.Data;
 
 
-namespace Locadora.Controllers
+namespace Livro.Controllers
 {
     public class LivroController : Controller
     {
@@ -15,7 +15,7 @@ namespace Locadora.Controllers
 
         public IActionResult Index()
         {
-            IEnumerable<livro> livro = _db.Livro;
+            IEnumerable<LivroModel> livro = _db.Livro;
             return View(livro);
         }
 
@@ -24,7 +24,7 @@ namespace Locadora.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Cadastrar(livro livro)
+        public IActionResult Cadastrar(LivroModel livro)
         {
             if (ModelState.IsValid)
             {
@@ -44,7 +44,7 @@ namespace Locadora.Controllers
                 return NotFound();
             }
 
-            livro livro = _db.Livro.FirstOrDefault(x => x.Id == id);
+            LivroModel livro = _db.Livro.FirstOrDefault(x => x.Id == id);
 
             if (livro == null)
             {
@@ -55,7 +55,7 @@ namespace Locadora.Controllers
         }
 
         [HttpPost]
-        public IActionResult Editar(livro livro)
+        public IActionResult Editar(LivroModel livro)
         {
             if (ModelState.IsValid)
             {
@@ -75,7 +75,7 @@ namespace Locadora.Controllers
                 return NotFound();
             }
 
-            livro livro = _db.Livro.FirstOrDefault(x => x.Id == id);
+            LivroModel livro = _db.Livro.FirstOrDefault(x => x.Id == id);
 
             if (livro == null)
             {
@@ -84,13 +84,13 @@ namespace Locadora.Controllers
             return View(livro);
         }
         [HttpPost]
-        public IActionResult Excluir(livro livro)
+        public IActionResult Excluir(LivroModel livro)
         {
             if (livro == null)
             {
                 return NotFound();
             }
-            _db.livro.Remove(livro);
+            _db.Livro.Remove(livro);
             _db.SaveChanges();
 
             return RedirectToAction("Index");

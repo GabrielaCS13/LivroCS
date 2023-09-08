@@ -3,16 +3,16 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:8789",
-      "sslPort": 44385
+      "applicationUrl": "http://localhost:44126",
+      "sslPort": 44358
     }
   },
   "profiles": {
-    "Locadora": {
+    "Livro": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7162;http://localhost:5223",
+      "applicationUrl": "https://localhost:7204;http://localhost:5262",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

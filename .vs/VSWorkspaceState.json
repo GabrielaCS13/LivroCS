@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Controllers",
+    "\\Data",
+    "\\Models",
+    "\\Properties",
+    "\\Views",
+    "\\Views\\Livros"
   ],
-  "SelectedNode": "\\appsettings.json",
+  "SelectedNode": "\\Views\\Livros\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

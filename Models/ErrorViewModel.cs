@@ -1,4 +1,4 @@
-namespace Locadora.Models
+namespace Livro.Models
 {
     public class ErrorViewModel
     {
