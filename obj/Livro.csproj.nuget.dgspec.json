@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gabriela Cristina\\source\\repos\\Livros\\Livro.csproj": {}
+    "C:\\Users\\Gabriela Cristina\\Desktop\\Livros\\Livro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gabriela Cristina\\source\\repos\\Livros\\Livro.csproj": {
+    "C:\\Users\\Gabriela Cristina\\Desktop\\Livros\\Livro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gabriela Cristina\\source\\repos\\Livros\\Livro.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriela Cristina\\Desktop\\Livros\\Livro.csproj",
         "projectName": "Livro",
-        "projectPath": "C:\\Users\\Gabriela Cristina\\source\\repos\\Livros\\Livro.csproj",
+        "projectPath": "C:\\Users\\Gabriela Cristina\\Desktop\\Livros\\Livro.csproj",
         "packagesPath": "C:\\Users\\Gabriela Cristina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gabriela Cristina\\source\\repos\\Livros\\obj\\",
+        "outputPath": "C:\\Users\\Gabriela Cristina\\Desktop\\Livros\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

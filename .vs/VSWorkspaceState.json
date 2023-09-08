@@ -6,8 +6,9 @@
     "\\Models",
     "\\Properties",
     "\\Views",
-    "\\Views\\Livros"
+    "\\Views\\Livros",
+    "\\Views\\Shared"
   ],
-  "SelectedNode": "\\Views\\Livros\\Index.cshtml",
+  "SelectedNode": "\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }

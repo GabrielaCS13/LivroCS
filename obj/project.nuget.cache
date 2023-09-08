@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YAyebEUezEiX/2h/BYOM14CL0CnpDaI8U17IoDierv8O2JlRNL+OtilRLZSQXgTthx1UC+mOosr7pv90u3vKzA==",
+  "dgSpecHash": "lWvXn2NNQhh3/8HlUwaB3jwUJhvdoAgM+th0jjbGHK69bp65RdQDlW1812zLbOA8JnbsSgA5Y2dwXlpgKs+oEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gabriela Cristina\\source\\repos\\Livros\\Livro.csproj",
+  "projectFilePath": "C:\\Users\\Gabriela Cristina\\Desktop\\Livros\\Livro.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gabriela Cristina\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Gabriela Cristina\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
